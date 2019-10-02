@@ -68,9 +68,9 @@ button {
 #ingredient-sidebar {
     height: 559px;
     background: white;
-    margin-top: 55%;
-    margin-left: -198%;
-    margin-right: 63%;
+    margin-top: 54%;
+    margin-left: -232%;
+    margin-right: 93%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -96,9 +96,9 @@ div {
 #instruction-sidebar {
     height: 559px;
     background: white;
-    margin-top: 63%;
-    margin-right: -230%;
-    margin-left: 63%;
+    margin-top: 55px;
+    width: 229px;
+    margin-left: 62%;
     border: solid #289EB3;
     border-width: 3px 0px 3px 3px;
     border-radius: 13px 0px 0px 13px;
@@ -109,16 +109,20 @@ div {
     font-size: 22px;
     position: absolute;
     top: -3px;
-    left: 10px;
+    left: 19px;
 }
 
 #instructions {
-    font-size: 18px;
-    margin-top: 27%;
+    font-size: 21px;
+    margin-top: 34%;
+    margin-left: -10px;
+    padding-right: 12px;
 }
 
 li {
-
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 33px;
 }
 
 img {
@@ -132,4 +136,11 @@ img {
     margin-top: 7%;
     height: 100px;
     width: 100px;
+}
+
+.selected {
+    margin: 3%;
+    border: solid #E68305;
+    border-width: 0px 5px 0px 5px;
+    margin-right: 8%;
 }

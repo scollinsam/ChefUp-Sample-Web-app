@@ -34,14 +34,13 @@ class ChefClass extends Component {
     
     render() {
         return (
-            <div className = 'player-container' onClick={this.triggerSelectClass}>
+            <div className = 'player-container' className = {this.props.videoclass} onClick={this.triggerSelectClass}>
                 <Player
                     ref={player => {
                         this.player = player;
                     }}
                     src={this.props.src}
-                    fluid={false}
-                    muted 
+                    fluid={false} 
                     width = {this.props.width}
                     height = {this.props.height}
                     aspectRatio = "16:9"
@@ -60,3 +59,5 @@ class ChefClass extends Component {
 }
 
 export default ChefClass
+
+
